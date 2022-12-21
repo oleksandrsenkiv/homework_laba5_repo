@@ -24,10 +24,10 @@ int main()
 	dinner1.AddCandy(candy3);
 	cout << "___________________________________" << endl;
 	dinner1.SortMass();
-	dinner1.PrintSortedVector();
+	dinner1.PrintSortMass();
 	cout << "___________________________________" << endl;
 	dinner1.findTheMostExpensiveCandies();
-	dinner1.PrintTop();
+	dinner1.PrintTheMostExpensiveCandies();
 
 }
 
